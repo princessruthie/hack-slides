@@ -1,0 +1,19 @@
+/**
+ *Overrides for Penn colors
+ */
+
+/*********************************************
+ * GLOBAL STYLES
+ *********************************************/
+body {
+  background: #011F5b;
+  background-color: #011F5b;
+  color: white;}
+
+  body:after {
+  content: url(../../images/penn_logo--small.png);
+  z-index: 999;
+  position: fixed;
+  bottom: 1.5em;
+  left: 1.5em;
+  box-shadow: 5px 5px 10px #000; }
